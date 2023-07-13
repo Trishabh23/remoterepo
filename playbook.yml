@@ -6,8 +6,8 @@
     - name: deploy application container
       docker_container:
         image: trisha456/devops-integration:latest
-        name: myapplication
+        name: myapplication1
         state: started
         auto_remove: true
         ports:
-          - "9090:8081"
+          - "9191:8081"
